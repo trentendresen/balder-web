@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "balderweb",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-balderweb-dev-145400-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/66e6b73b3296161c6e71269f608fcf03be7925c3"
+}

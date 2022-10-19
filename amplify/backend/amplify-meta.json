@@ -1,0 +1,42 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-balderweb-dev-145400-authRole",
+      "UnauthRoleArn": "arn:aws:iam::220204137650:role/amplify-balderweb-dev-145400-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::220204137650:role/amplify-balderweb-dev-145400-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-balderweb-dev-145400-deployment",
+      "UnauthRoleName": "amplify-balderweb-dev-145400-unauthRole",
+      "StackName": "amplify-balderweb-dev-145400",
+      "StackId": "arn:aws:cloudformation:us-east-1:220204137650:stack/amplify-balderweb-dev-145400/c79cdfe0-4fe7-11ed-a26b-127ff2730d7b",
+      "AmplifyAppId": "d3moy8pdjx0vd3"
+    }
+  },
+  "api": {
+    "balderweb": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "ii3zfu47tngr3itdgq24oleqna",
+        "GraphQLAPIEndpointOutput": "https://52itev4quzdr7ikpt7z7lidws4.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-gnkfw4k7mjh65nvs7kw7s6s4wu"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-balderweb-dev-145400-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apibalderweb"
+      },
+      "lastPushTimeStamp": "2022-10-19T20:54:56.660Z",
+      "lastPushDirHash": "AKhe+z0IOrpBN4K/OIRlhYwfHoA="
+    }
+  }
+}
