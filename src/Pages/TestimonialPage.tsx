@@ -5,7 +5,7 @@ export const TestimonialPage = () => {
   return (
     <>
       <TopNavBarComponent />
-      <p>Testomonial</p>
+      <p>Testimonial</p>
     </>
   );
 };

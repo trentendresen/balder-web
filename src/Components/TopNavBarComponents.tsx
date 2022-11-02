@@ -37,10 +37,10 @@ export const TopNavBarComponent = () => {
           </List>
           <List className="link">
             <Link
-              className={location === "/testomonials" ? "active" : "link"}
-              to="/testomonials"
+              className={location === "/testimonials" ? "active" : "link"}
+              to="/testimonials"
             >
-              Testomonials
+              Testimonials
             </Link>
           </List>
           <List>
